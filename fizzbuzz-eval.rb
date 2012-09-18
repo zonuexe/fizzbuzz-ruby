@@ -20,4 +20,6 @@ module FizzBuzz
   end
 end
 
-puts FizzBuzz::Eval::fizzbuzz 100
+if __FILE__ == $0
+  puts FizzBuzz::Eval::fizzbuzz 100
+end
